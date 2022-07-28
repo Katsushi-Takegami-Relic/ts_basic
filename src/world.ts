@@ -6,7 +6,7 @@ export default class World {
   }
 
   public sayHello(elem: HTMLElement | null) {
-    if (elem)　　{
+    if (elem) {
       elem.innerText = this.massage
     }
   }
